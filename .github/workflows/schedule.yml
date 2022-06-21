@@ -1,7 +1,7 @@
 name: running my job for every 5 mins 
 on:
   schedule:
-    - cron : "5 * * * *"
+    - cron : '*/5 * * * *'
     
 jobs:
   build:
